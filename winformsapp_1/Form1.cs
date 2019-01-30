@@ -16,5 +16,17 @@ namespace winformsapp_1
         {
             InitializeComponent();
         }
+
+        private void btnConfirm_Click(object sender, EventArgs e)
+        {
+            var name = tbName.Text;
+            //MessageBox.Show("Hello "+name+" Welcome to Jamaica.");
+            lblName.Text = $"Hello {name}. You are welcom here!";
+        }
+
+        private void label1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
